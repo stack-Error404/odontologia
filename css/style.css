@@ -3,3 +3,4 @@
 .gallery{grid-template-columns:1fr}.gallery figure{grid-column:auto;grid-row:auto}.gallery img{aspect-ratio:4/3;height:auto;width:100%}
 @media (min-width:700px){.gallery{grid-template-columns:repeat(2,1fr)}.gallery figure:last-child{grid-column:1/-1}.gallery figure:last-child img{aspect-ratio:16/7}}
 @media (min-width:1050px){.gallery{grid-template-columns:repeat(3,1fr)}.gallery figure:last-child{grid-column:span 1}.gallery figure:last-child img{aspect-ratio:4/3}}
+.mini-icon{display:block;width:64px;height:64px;margin:0 0 1rem;filter:saturate(.6) sepia(.12)}.credential .mini-icon{margin-bottom:.8rem}
